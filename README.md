@@ -30,6 +30,7 @@ Feel free to explore the code and customize the website to suit your personal br
 - `css/`: Directory containing the CSS files for styling.
 - `js/`: Directory containing JavaScript files for interactivity.
 - `img/`: Directory for images used on the website.
+- `pdf/`: Directory for storing resume pdf available on the website.
 
 ## Contributing
 
