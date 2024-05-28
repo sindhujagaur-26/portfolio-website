@@ -502,7 +502,11 @@ img {
 }
 
 .skills__react{
-  width: 20%;
+  width: 60%;
+}
+
+.skills__next{
+  width: 35%;
 }
 
 .skills__AI{
@@ -518,7 +522,7 @@ img {
 }
 
 .skills__NN{
-  width: 65%;
+  width: 85%;
 }
 
 .skills__reinforcement{
@@ -538,6 +542,14 @@ img {
 }
 
 .skills__DP{
+  width: 70%;
+}
+
+.skills__trees{
+  width: 50%;
+}
+
+.skills__LL{
   width: 70%;
 }
 
