@@ -7,10 +7,13 @@
         <!--==================== UNICONS ====================-->
         <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
         
+        <!--==================== SWIPER CSS ====================-->
+        <link rel="stylesheet" href="assets\css\swiper-bundle.min.css">
+        
         <!--==================== CSS ====================-->
         <link rel="stylesheet" href="assets\css\styles.css">
 
-        <title>Sindhuja Gaur Portfolio</title>
+        <title>Sindhuja Gaur Resume</title>
     </head>
     <body>
         <!--==================== HEADER ====================-->
@@ -100,8 +103,8 @@
 
                         <div class="home__data">
                             <h1 class="home__title">Hi, I'm Sindhuja</h1>
-                            <h3 class="home__substitle">Full Stack Web Developer</h3>
-                            <p class="home_description">Undergraduate student skilled in UI/UX design, adept at problem-solving, and enthusiastic about artificial intelligence and neural networks. Strong foundation in JavaScript, HTML, CSS, and a commitment to staying at the forefront of emerging technologies.</p>
+                            <h3 class="home__substitle">Frontend Developer</h3>
+                            <p class="home_description">Frontend developer skilled in UI/UX design, adept at problem-solving, and enthusiastic about artificial intelligence and neural networks. Strong foundation in JavaScript, HTML, CSS, and a commitment to staying at the forefront of emerging technologies.</p>
                             <a href="#contactme" class="button button--flex">
                                 Contact Me<i class="uil uil-message button__icon"></i>
                             </a>
@@ -166,7 +169,7 @@
                                 <i class="uil uil-brackets-curly skills__icon"></i>
 
                                 <div>
-                                    <h1 class="skills__title">Full Stack developer</h1>
+                                    <h1 class="skills__title">Frontend developer</h1>
                                     <span class="skills__subtitle">More than 2 years</span>
                                 </div>
 
@@ -196,7 +199,7 @@
                                 <div class="skills__data">
                                     <div class="skills__titles">
                                         <h3 class="skills__name">JavaScript</h3>
-                                        <span class="skills__number">75%</span>
+                                        <span class="skills__number">65%</span>
                                     </div>
                                     <div class="skills__bar">
                                         <span class="skills__percentage skills__js"></span>
@@ -206,20 +209,10 @@
                                 <div class="skills__data">
                                     <div class="skills__titles">
                                         <h3 class="skills__name">React</h3>
-                                        <span class="skills__number">60%</span>
+                                        <span class="skills__number">20%</span>
                                     </div>
                                     <div class="skills__bar">
                                         <span class="skills__percentage skills__react"></span>
-                                    </div>
-                                </div>
-
-                                <div class="skills__data">
-                                    <div class="skills__titles">
-                                        <h3 class="skills__name">Next</h3>
-                                        <span class="skills__number">35%</span>
-                                    </div>
-                                    <div class="skills__bar">
-                                        <span class="skills__percentage skills__next"></span>
                                     </div>
                                 </div>
 
@@ -279,26 +272,6 @@
                                             <span class="skills__percentage skills__DP"></span>
                                         </div>
                                     </div>
-
-                                    <div class="skills__data">
-                                        <div class="skills__titles">
-                                            <h3 class="skills__name">Trees</h3>
-                                            <span class="skills__number">50%</span>
-                                        </div>
-                                        <div class="skills__bar">
-                                            <span class="skills__percentage skills__trees"></span>
-                                        </div>
-                                    </div>
-
-                                    <div class="skills__data">
-                                        <div class="skills__titles">
-                                            <h3 class="skills__name">Linked List</h3>
-                                            <span class="skills__number">70%</span>
-                                        </div>
-                                        <div class="skills__bar">
-                                            <span class="skills__percentage skills__LL"></span>
-                                        </div>
-                                    </div>
                                 </div>
                             </div>
                 </div>
@@ -348,7 +321,7 @@
                                 <div class="skills__data">
                                     <div class="skills__titles">
                                         <h3 class="skills__name">Neural Networks</h3>
-                                        <span class="skills__number">85%</span>
+                                        <span class="skills__number">65%</span>
                                     </div>
                                     <div class="skills__bar">
                                         <span class="skills__percentage skills__NN"></span>
@@ -441,6 +414,11 @@
                             <i class="uil uil-graduation-cap qualification__icon"></i>
                             Education
                         </div>
+
+                        <!-- <div class="qualification__button button--flex">
+                            <i class="uil uil-briefcase-alt qualification__icon"></i>
+                            Work
+                        </div> -->
                     </div>
 
                     <div class="qualification__section">
@@ -451,7 +429,7 @@
                                 <div>
                                     <h3 class="qualification__title">Bachelor of technology in Computer Science and Engineering</h3>
                                     <span class="qualification__subtitle">National Institute of Technology Patna</span>
-                                    <div class="qualification__marks">CGPA - 8.79</div>
+                                    <div class="qualification__marks">CGPA - 8.87</div>
                                     <div class="qualification__calendar">
                                         <i class="uil uil-calendar-alt"></i>
                                         2021-2025
@@ -513,6 +491,28 @@
                 </div>
             </section>
 
+            <!--==================== EXPERIENCE ====================-->
+            <section class="services section" id="services">
+                <h2 class="section__title">Experience</h2>
+                <span class="section__subtitle">Most recent experience</span>
+
+                <div class="portfolio__container container swiper mySwiper">
+                    <!-- <div class="swiper-wrapper"> -->
+                        <!--==================== PROJECT 1 ====================-->
+                        <div class="portfolio__content grid swiper-slide">
+                            <!-- <img src="" alt=""> -->
+
+                            <div class="portfolio__data">
+                                <h3 class="portfolio__title">Software Developer Intern - Tollring</h3>
+                                <p class="portfolio__description">Fine-tuned pre-existing models for entity recognition across multiple languages in call transcripts, enhancing accuracy
+                                    and linguistic coverage. Applied zero-shot classification techniques to categorize data effectively without additional training data. Utilized transformer models, including BERT and BART from the Hugging Face library, to improve natural
+                                    language processing capabilities.</p>
+                                    <!-- <a href="#" class="button button--flex button--small portfolio__button"></a> -->
+                            </div>
+                        </div>
+                </div>
+            </section>
+
             <!--==================== PORTFOLIO ====================-->
             <section class="portfolio section" id="portfolio">
                 <h2 class="section__title">Projects</h2>
@@ -527,7 +527,7 @@
                             <div class="portfolio__data">
                                 <h3 class="portfolio__title">Attention monitoring of students during online classes</h3>
                                 <p class="portfolio__description">An attention monitoring system of the students containing a comprehensive anonymous report on
-                                    the level of attentiveness through machine learning techniques, frameworks and deep
+                                    the level of attentiveness is under development through machine learning techniques and deep
                                     learning for conducting effective online classes using face detection, hand tracking, cell phone
                                     detection, and pose estimation modules.</p>
                                     <!-- <a href="#" class="button button--flex button--small portfolio__button"></a> -->
@@ -538,8 +538,10 @@
                             <!-- <img src="" alt=""> -->
 
                             <div class="portfolio__data">
-                                <h3 class="portfolio__title">Blood Bank Help</h3>
-                                <p class="portfolio__description">Developed a full-stack blood bank management system leveraging the MERN stack to create a robust and efficient solution. The system features secure user authentication using JSON Web Tokens (JWT), ensuring data privacy and access control.</p>
+                                <h3 class="portfolio__title">Landing page for a website</h3>
+                                <p class="portfolio__description">Designed a responsive landing page for a card designing company using HTML, CSS and
+                                    JavaScript. 
+                                    Tools & technologies used: HTML, CSS, JavaScript</p>
                                     <!-- <a href="#" class="button button--flex button--small portfolio__button">
                                     Link
                                     <i class="uil uil-arrow-right button__icon"></i>
@@ -552,8 +554,7 @@
 
                             <div class="portfolio__data">
                                 <h3 class="portfolio__title">Portfolio website</h3>
-                                <p class="portfolio__description">
-                                    Designed and developed a modern portfolio website to showcase my projects and skills effectively. 
+                                <p class="portfolio__description">Designed and developed a modern portfolio website to showcase my projects and skills effectively. 
                                     Implemented responsive design and optimized performance for a seamless user experience across devices. </p>
                                     <!-- <a href="#" class="button button--flex button--small portfolio__button">
                                     Link
@@ -562,6 +563,11 @@
                             </div>
                         </div>
                     </div>
+                    <!-- add arrow -->
+                    <!-- <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                    add pagination -->
+                    <!-- <div class="swiper-pagination"></div> -->
                 </div>
             </section>
 
@@ -682,7 +688,7 @@
                 <div class="footer__container container grid">
                     <div>
                         <h1 class="footer__title">Sindhuja</h1>
-                        <span class="footer__subtitle">Full Stack Web developer</span>
+                        <span class="footer__subtitle">Frontend developer</span>
                     </div>
                     <ul class="footer__links">
                         <li>
@@ -692,7 +698,7 @@
                             <a href="#portfolio" class="footer__link">Projects</a>
                         </li>
                         <li>
-                            <a href="#contactme" class="footer__link">Contact</a>
+                            <a href="#contactme" class="footer__link">Contactme</a>
                         </li>
                     </ul>
                 </div>
@@ -704,6 +710,9 @@
         <a href="#" class="scrollup" id="scroll-up">
             <i class="uil uil-arrow-up scrollup__icon"></i>
         </a>
+
+        <!--==================== SWIPER JS ====================-->
+        <script src="assets\js\swiper-bundle.min.js"></script>
 
         <!--==================== MAIN JS ====================-->
         <script src="assets\js\main.js"></script>
